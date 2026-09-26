@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+data/fema_p695/FF*.txt
+*.log
+*.aux
+*.out

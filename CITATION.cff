@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+title: "State-space recoverability and hinge topology"
+message: "If you use these scripts or derived tables, please cite the accompanying manuscript."
+type: software
+authors:
+  - family-names: Ren
+    given-names: Lijian
+    affiliation: Inner Mongolia University of Technology
+    orcid: "https://orcid.org/0000-0003-1629-4368"
+version: "2026.09.26"
+date-released: 2026-09-26
+license: MIT
