@@ -1,0 +1,164 @@
+{
+  "source": "R:\\IMUT_WORKPOOL\\01_PROJECTS\\NAS_DRIVE\\IMUT\\1-Research_Output\\1-Papers\\1_In_Preparation\\ai_civil_slate_codex_goal_gate\\rounds\\archived baseline_N0_GRAVITY_SEPARATRIX_2026-09-24\\results\\column_hinge_rows.json",
+  "opensees_version": "3.8.0",
+  "fine_levels": [
+    0.046,
+    0.05,
+    0.054,
+    0.058,
+    0.064,
+    0.07,
+    0.076
+  ],
+  "rows": 42,
+  "rows_with_new_fine_timestamp": 21,
+  "changed": [
+    {
+      "id": "FF04",
+      "nstory": 4,
+      "t_s": 18.35,
+      "t_s_fine": 18.1,
+      "drift_fine": 0.05497696909924771
+    },
+    {
+      "id": "FF06",
+      "nstory": 4,
+      "t_s": 7.9,
+      "t_s_fine": 7.8,
+      "drift_fine": 0.05358039730979436
+    },
+    {
+      "id": "FF08",
+      "nstory": 4,
+      "t_s": 51.050000000000004,
+      "t_s_fine": 51.0,
+      "drift_fine": 0.05924303287622553
+    },
+    {
+      "id": "FF12",
+      "nstory": 4,
+      "t_s": 22.2,
+      "t_s_fine": 17.5,
+      "drift_fine": 0.05477929676095866
+    },
+    {
+      "id": "FF18",
+      "nstory": 4,
+      "t_s": 35.65,
+      "t_s_fine": 36.75,
+      "drift_fine": 0.06640070193211668
+    },
+    {
+      "id": "FF20",
+      "nstory": 4,
+      "t_s": 17.25,
+      "t_s_fine": 17.150000000000002,
+      "drift_fine": 0.053696354231537714
+    },
+    {
+      "id": "FF24",
+      "nstory": 4,
+      "t_s": 16.1,
+      "t_s_fine": 16.0,
+      "drift_fine": 0.05400369355704561
+    },
+    {
+      "id": "FF26",
+      "nstory": 4,
+      "t_s": 13.200000000000001,
+      "t_s_fine": 13.1,
+      "drift_fine": 0.051663832454987645
+    },
+    {
+      "id": "FF28",
+      "nstory": 4,
+      "t_s": 17.85,
+      "t_s_fine": 17.6,
+      "drift_fine": 0.05186102051699908
+    },
+    {
+      "id": "FF30",
+      "nstory": 4,
+      "t_s": 44.0,
+      "t_s_fine": 43.9,
+      "drift_fine": 0.05506236900426544
+    },
+    {
+      "id": "FF40",
+      "nstory": 4,
+      "t_s": 11.4,
+      "t_s_fine": 10.950000000000001,
+      "drift_fine": 0.050395305752145854
+    },
+    {
+      "id": "FF00",
+      "nstory": 8,
+      "t_s": 12.5,
+      "t_s_fine": 11.950000000000001,
+      "drift_fine": 0.0557138652571615
+    },
+    {
+      "id": "FF02",
+      "nstory": 8,
+      "t_s": 8.1,
+      "t_s_fine": 7.9,
+      "drift_fine": 0.04755150569240109
+    },
+    {
+      "id": "FF06",
+      "nstory": 8,
+      "t_s": 9.200000000000001,
+      "t_s_fine": 8.4,
+      "drift_fine": 0.050748587970042794
+    },
+    {
+      "id": "FF08",
+      "nstory": 8,
+      "t_s": 49.75,
+      "t_s_fine": 49.85,
+      "drift_fine": 0.06434366802749174
+    },
+    {
+      "id": "FF12",
+      "nstory": 8,
+      "t_s": 18.0,
+      "t_s_fine": 17.7,
+      "drift_fine": 0.04785484249967859
+    },
+    {
+      "id": "FF16",
+      "nstory": 8,
+      "t_s": 24.6,
+      "t_s_fine": 21.75,
+      "drift_fine": 0.05474324035643415
+    },
+    {
+      "id": "FF28",
+      "nstory": 8,
+      "t_s": 18.1,
+      "t_s_fine": 18.2,
+      "drift_fine": 0.06554955000542749
+    },
+    {
+      "id": "FF32",
+      "nstory": 8,
+      "t_s": 18.35,
+      "t_s_fine": 18.5,
+      "drift_fine": 0.06422899386915863
+    },
+    {
+      "id": "FF38",
+      "nstory": 8,
+      "t_s": 96.10000000000001,
+      "t_s_fine": 95.4,
+      "drift_fine": 0.05240169317242958
+    },
+    {
+      "id": "FF42",
+      "nstory": 8,
+      "t_s": 25.75,
+      "t_s_fine": 24.3,
+      "drift_fine": 0.06416274772631214
+    }
+  ]
+}

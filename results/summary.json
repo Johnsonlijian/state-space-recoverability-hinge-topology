@@ -1,0 +1,962 @@
+{
+  "main_b0": {
+    "n_motions": 40,
+    "n_motions_with_commitment": 40,
+    "n_motions_reaching_10pct": 31,
+    "counts": {
+      "n_states": 60891,
+      "n_truth": 3988,
+      "n_tan": 6348,
+      "n_tan_fp": 2906,
+      "n_tan_fn": 546,
+      "n_d10": 2485,
+      "n_d10_fp": 2,
+      "n_d10_fn": 1505,
+      "n_d05": 5705,
+      "n_d05_fp": 2283,
+      "n_d05_fn": 566,
+      "n_saddle": 2288,
+      "n_saddle_fp": 0,
+      "n_saddle_fn": 1700,
+      "n_energy": 3582,
+      "n_energy_fp": 185,
+      "n_energy_fn": 591,
+      "n_sust": 3367,
+      "n_sust_fp": 738,
+      "n_sust_fn": 1359
+    },
+    "state_error_rates": {
+      "tangent_fp_given_tan": 0.45778197857592945,
+      "tangent_fn_given_truth": 0.13691073219658978,
+      "d10_fp_given_d10": 0.0008048289738430583,
+      "d10_fn_given_truth": 0.37738214643931794,
+      "d05_fp_given_d05": 0.4001752848378615,
+      "d05_fn_given_truth": 0.141925777331996,
+      "saddle_fp_given_saddle": 0.0,
+      "saddle_fn_given_truth": 0.4262788365095286,
+      "energy_fp_given_energy": 0.05164712451144612,
+      "energy_fn_given_truth": 0.14819458375125377,
+      "sust_fp_given_sust": 0.2191862191862192,
+      "sust_fn_given_truth": 0.3407723169508526
+    },
+    "scale_ratio_vs_commitment": {
+      "d10": {
+        "n": 31,
+        "median": 1.0,
+        "q25": 1.0,
+        "q75": 1.0
+      },
+      "d05": {
+        "n": 35,
+        "median": 1.0,
+        "q25": 1.0,
+        "q75": 1.0
+      },
+      "tan": {
+        "n": 40,
+        "median": 0.39112324770620827,
+        "q25": 0.2860343388327382,
+        "q75": 0.5348217823095262
+      },
+      "sust": {
+        "n": 33,
+        "median": 0.7313151046638693,
+        "q25": 0.3911232477062083,
+        "q75": 0.7313151046638694
+      },
+      "saddle": {
+        "n": 31,
+        "median": 1.0,
+        "q25": 1.0,
+        "q75": 1.0
+      },
+      "energy": {
+        "n": 40,
+        "median": 1.0,
+        "q25": 0.7313151046638695,
+        "q75": 1.0
+      }
+    },
+    "drift_at_first_commitment": {
+      "n": 40,
+      "median": 0.042806745856322784,
+      "q25": 0.015559222102984629,
+      "q75": 0.07489167539161115
+    },
+    "fy_ratio_at_first_commitment": {
+      "n": 40,
+      "median": 1.0,
+      "q25": 1.0,
+      "q75": 1.0
+    },
+    "reentry_fraction_among_committed": {
+      "n": 31,
+      "N": 40,
+      "p": 0.775
+    }
+  },
+  "main_b004": {
+    "n_motions": 40,
+    "n_motions_with_commitment": 40,
+    "n_motions_reaching_10pct": 38,
+    "counts": {
+      "n_states": 56295,
+      "n_truth": 4823,
+      "n_tan": 6513,
+      "n_tan_fp": 2307,
+      "n_tan_fn": 617,
+      "n_d10": 2255,
+      "n_d10_fp": 0,
+      "n_d10_fn": 2568,
+      "n_d05": 4310,
+      "n_d05_fp": 676,
+      "n_d05_fn": 1189,
+      "n_saddle": 2952,
+      "n_saddle_fp": 0,
+      "n_saddle_fn": 1871,
+      "n_energy": 4162,
+      "n_energy_fp": 10,
+      "n_energy_fn": 671,
+      "n_sust": 3658,
+      "n_sust_fp": 510,
+      "n_sust_fn": 1675
+    },
+    "state_error_rates": {
+      "tangent_fp_given_tan": 0.3542146476278213,
+      "tangent_fn_given_truth": 0.12792867509848643,
+      "d10_fp_given_d10": 0.0,
+      "d10_fn_given_truth": 0.5324486833920796,
+      "d05_fp_given_d05": 0.15684454756380511,
+      "d05_fn_given_truth": 0.24652705784781256,
+      "saddle_fp_given_saddle": 0.0,
+      "saddle_fn_given_truth": 0.38793282189508604,
+      "energy_fp_given_energy": 0.002402691013935608,
+      "energy_fn_given_truth": 0.13912502591747875,
+      "sust_fp_given_sust": 0.1394204483324221,
+      "sust_fn_given_truth": 0.34729421521874354
+    },
+    "scale_ratio_vs_commitment": {
+      "d10": {
+        "n": 38,
+        "median": 1.0,
+        "q25": 1.0,
+        "q75": 1.8697817349205372
+      },
+      "d05": {
+        "n": 38,
+        "median": 1.0,
+        "q25": 1.0,
+        "q75": 1.3673996251720044
+      },
+      "tan": {
+        "n": 40,
+        "median": 0.3911232477062084,
+        "q25": 0.39112324770620827,
+        "q75": 0.5348217823095262
+      },
+      "sust": {
+        "n": 38,
+        "median": 0.7313151046638693,
+        "q25": 0.5348217823095262,
+        "q75": 1.2755497188790033
+      },
+      "saddle": {
+        "n": 38,
+        "median": 1.0,
+        "q25": 1.0,
+        "q75": 1.8697817349205372
+      },
+      "energy": {
+        "n": 40,
+        "median": 1.0,
+        "q25": 1.0,
+        "q75": 1.0
+      }
+    },
+    "drift_at_first_commitment": {
+      "n": 40,
+      "median": 0.033460313187036045,
+      "q25": 0.00928953131226276,
+      "q75": 0.05100174104061747
+    },
+    "fy_ratio_at_first_commitment": {
+      "n": 40,
+      "median": 0.8463655252430164,
+      "q25": 0.7754804786128798,
+      "q75": 0.9309868229916086
+    },
+    "reentry_fraction_among_committed": {
+      "n": 27,
+      "N": 40,
+      "p": 0.675
+    }
+  },
+  "th0.06_b0": {
+    "n_motions": 16,
+    "n_motions_with_commitment": 16,
+    "n_motions_reaching_10pct": 12,
+    "counts": {
+      "n_states": 26017,
+      "n_truth": 1215,
+      "n_tan": 2801,
+      "n_tan_fp": 1763,
+      "n_tan_fn": 177,
+      "n_d10": 1506,
+      "n_d10_fp": 482,
+      "n_d10_fn": 191,
+      "n_d05": 3333,
+      "n_d05_fp": 2213,
+      "n_d05_fn": 95,
+      "n_saddle": 617,
+      "n_saddle_fp": 0,
+      "n_saddle_fn": 598,
+      "n_energy": 1112,
+      "n_energy_fp": 101,
+      "n_energy_fn": 204,
+      "n_sust": 1268,
+      "n_sust_fp": 517,
+      "n_sust_fn": 464
+    },
+    "state_error_rates": {
+      "tangent_fp_given_tan": 0.629418064976794,
+      "tangent_fn_given_truth": 0.145679012345679,
+      "d10_fp_given_d10": 0.3200531208499336,
+      "d10_fn_given_truth": 0.15720164609053497,
+      "d05_fp_given_d05": 0.663966396639664,
+      "d05_fn_given_truth": 0.07818930041152264,
+      "saddle_fp_given_saddle": 0.0,
+      "saddle_fn_given_truth": 0.49218106995884775,
+      "energy_fp_given_energy": 0.09082733812949641,
+      "energy_fn_given_truth": 0.16790123456790124,
+      "sust_fp_given_sust": 0.4077287066246057,
+      "sust_fn_given_truth": 0.38189300411522636
+    },
+    "scale_ratio_vs_commitment": {
+      "d10": {
+        "n": 12,
+        "median": 1.0,
+        "q25": 1.0,
+        "q75": 1.0
+      },
+      "d05": {
+        "n": 13,
+        "median": 0.7313151046638695,
+        "q25": 0.7313151046638694,
+        "q75": 1.0
+      },
+      "tan": {
+        "n": 16,
+        "median": 0.2860343388327382,
+        "q25": 0.20918123244092462,
+        "q75": 0.3123065660511058
+      },
+      "sust": {
+        "n": 13,
+        "median": 0.5348217823095262,
+        "q25": 0.3911232477062082,
+        "q75": 0.7313151046638693
+      },
+      "saddle": {
+        "n": 11,
+        "median": 1.0,
+        "q25": 1.0,
+        "q75": 1.3673996251720044
+      },
+      "energy": {
+        "n": 16,
+        "median": 1.0,
+        "q25": 0.7313151046638695,
+        "q75": 1.0
+      }
+    },
+    "drift_at_first_commitment": {
+      "n": 16,
+      "median": 0.09246672265600686,
+      "q25": 0.020708585076773405,
+      "q75": 0.135730963453699
+    },
+    "fy_ratio_at_first_commitment": {
+      "n": 16,
+      "median": 1.0,
+      "q25": 1.0,
+      "q75": 1.0
+    },
+    "reentry_fraction_among_committed": {
+      "n": 14,
+      "N": 16,
+      "p": 0.875
+    }
+  },
+  "th0.06_b004": {
+    "n_motions": 16,
+    "n_motions_with_commitment": 16,
+    "n_motions_reaching_10pct": 13,
+    "counts": {
+      "n_states": 23777,
+      "n_truth": 1742,
+      "n_tan": 2845,
+      "n_tan_fp": 1272,
+      "n_tan_fn": 169,
+      "n_d10": 1134,
+      "n_d10_fp": 93,
+      "n_d10_fn": 701,
+      "n_d05": 2179,
+      "n_d05_fp": 747,
+      "n_d05_fn": 310,
+      "n_saddle": 1043,
+      "n_saddle_fp": 0,
+      "n_saddle_fn": 699,
+      "n_energy": 1547,
+      "n_energy_fp": 2,
+      "n_energy_fn": 197,
+      "n_sust": 1506,
+      "n_sust_fp": 334,
+      "n_sust_fn": 570
+    },
+    "state_error_rates": {
+      "tangent_fp_given_tan": 0.44710017574692446,
+      "tangent_fn_given_truth": 0.09701492537313433,
+      "d10_fp_given_d10": 0.082010582010582,
+      "d10_fn_given_truth": 0.4024110218140069,
+      "d05_fp_given_d05": 0.3428178063331804,
+      "d05_fn_given_truth": 0.17795637198622274,
+      "saddle_fp_given_saddle": 0.0,
+      "saddle_fn_given_truth": 0.4012629161882893,
+      "energy_fp_given_energy": 0.001292824822236587,
+      "energy_fn_given_truth": 0.11308840413318025,
+      "sust_fp_given_sust": 0.22177954847277556,
+      "sust_fn_given_truth": 0.32721010332950634
+    },
+    "scale_ratio_vs_commitment": {
+      "d10": {
+        "n": 13,
+        "median": 1.0,
+        "q25": 1.0,
+        "q75": 1.0
+      },
+      "d05": {
+        "n": 14,
+        "median": 1.0,
+        "q25": 0.7313151046638695,
+        "q75": 1.0
+      },
+      "tan": {
+        "n": 16,
+        "median": 0.33857879326947327,
+        "q25": 0.2860343388327382,
+        "q75": 0.3911232477062084
+      },
+      "sust": {
+        "n": 15,
+        "median": 0.7313151046638693,
+        "q25": 0.46297251500786724,
+        "q75": 0.8656575523319348
+      },
+      "saddle": {
+        "n": 13,
+        "median": 1.0,
+        "q25": 1.0,
+        "q75": 1.0
+      },
+      "energy": {
+        "n": 16,
+        "median": 1.0,
+        "q25": 1.0,
+        "q75": 1.0
+      }
+    },
+    "drift_at_first_commitment": {
+      "n": 16,
+      "median": 0.04101687445102591,
+      "q25": 0.0168086979797035,
+      "q75": 0.06367568364655736
+    },
+    "fy_ratio_at_first_commitment": {
+      "n": 16,
+      "median": 0.8039780352435488,
+      "q25": 0.6358957790595245,
+      "q75": 0.9088676569711841
+    },
+    "reentry_fraction_among_committed": {
+      "n": 11,
+      "N": 16,
+      "p": 0.6875
+    }
+  },
+  "th0.14_b0": {
+    "n_motions": 16,
+    "n_motions_with_commitment": 16,
+    "n_motions_reaching_10pct": 15,
+    "counts": {
+      "n_states": 21677,
+      "n_truth": 1776,
+      "n_tan": 2379,
+      "n_tan_fp": 872,
+      "n_tan_fn": 269,
+      "n_d10": 822,
+      "n_d10_fp": 0,
+      "n_d10_fn": 954,
+      "n_d05": 1747,
+      "n_d05_fp": 386,
+      "n_d05_fn": 415,
+      "n_saddle": 1020,
+      "n_saddle_fp": 0,
+      "n_saddle_fn": 756,
+      "n_energy": 1534,
+      "n_energy_fp": 50,
+      "n_energy_fn": 292,
+      "n_sust": 1315,
+      "n_sust_fp": 212,
+      "n_sust_fn": 673
+    },
+    "state_error_rates": {
+      "tangent_fp_given_tan": 0.36654056326187473,
+      "tangent_fn_given_truth": 0.15146396396396397,
+      "d10_fp_given_d10": 0.0,
+      "d10_fn_given_truth": 0.5371621621621622,
+      "d05_fp_given_d05": 0.2209502003434459,
+      "d05_fn_given_truth": 0.23367117117117117,
+      "saddle_fp_given_saddle": 0.0,
+      "saddle_fn_given_truth": 0.42567567567567566,
+      "energy_fp_given_energy": 0.03259452411994785,
+      "energy_fn_given_truth": 0.16441441441441443,
+      "sust_fp_given_sust": 0.1612167300380228,
+      "sust_fn_given_truth": 0.37894144144144143
+    },
+    "scale_ratio_vs_commitment": {
+      "d10": {
+        "n": 15,
+        "median": 1.0,
+        "q25": 1.0,
+        "q75": 1.1836998125860019
+      },
+      "d05": {
+        "n": 15,
+        "median": 1.0,
+        "q25": 1.0,
+        "q75": 1.0
+      },
+      "tan": {
+        "n": 16,
+        "median": 0.3911232477062083,
+        "q25": 0.39112324770620827,
+        "q75": 0.5348217823095262
+      },
+      "sust": {
+        "n": 15,
+        "median": 0.7313151046638694,
+        "q25": 0.534821782309526,
+        "q75": 1.0
+      },
+      "saddle": {
+        "n": 15,
+        "median": 1.0,
+        "q25": 1.0,
+        "q75": 1.1836998125860019
+      },
+      "energy": {
+        "n": 16,
+        "median": 1.0,
+        "q25": 1.0,
+        "q75": 1.0
+      }
+    },
+    "drift_at_first_commitment": {
+      "n": 16,
+      "median": 0.030651811598237037,
+      "q25": 0.011745139873602239,
+      "q75": 0.0514844895212822
+    },
+    "fy_ratio_at_first_commitment": {
+      "n": 16,
+      "median": 1.0,
+      "q25": 1.0,
+      "q75": 1.0
+    },
+    "reentry_fraction_among_committed": {
+      "n": 10,
+      "N": 16,
+      "p": 0.625
+    }
+  },
+  "th0.14_b004": {
+    "n_motions": 16,
+    "n_motions_with_commitment": 16,
+    "n_motions_reaching_10pct": 15,
+    "counts": {
+      "n_states": 20553,
+      "n_truth": 1912,
+      "n_tan": 2313,
+      "n_tan_fp": 722,
+      "n_tan_fn": 321,
+      "n_d10": 735,
+      "n_d10_fp": 0,
+      "n_d10_fn": 1177,
+      "n_d05": 1300,
+      "n_d05_fp": 13,
+      "n_d05_fn": 625,
+      "n_saddle": 1123,
+      "n_saddle_fp": 0,
+      "n_saddle_fn": 789,
+      "n_energy": 1569,
+      "n_energy_fp": 5,
+      "n_energy_fn": 348,
+      "n_sust": 1291,
+      "n_sust_fp": 153,
+      "n_sust_fn": 774
+    },
+    "state_error_rates": {
+      "tangent_fp_given_tan": 0.31214872460008647,
+      "tangent_fn_given_truth": 0.16788702928870292,
+      "d10_fp_given_d10": 0.0,
+      "d10_fn_given_truth": 0.6155857740585774,
+      "d05_fp_given_d05": 0.01,
+      "d05_fn_given_truth": 0.32688284518828453,
+      "saddle_fp_given_saddle": 0.0,
+      "saddle_fn_given_truth": 0.41265690376569036,
+      "energy_fp_given_energy": 0.0031867431485022306,
+      "energy_fn_given_truth": 0.18200836820083682,
+      "sust_fp_given_sust": 0.1185127807900852,
+      "sust_fn_given_truth": 0.40481171548117156
+    },
+    "scale_ratio_vs_commitment": {
+      "d10": {
+        "n": 15,
+        "median": 1.0,
+        "q25": 1.0,
+        "q75": 1.3673996251720042
+      },
+      "d05": {
+        "n": 15,
+        "median": 1.0,
+        "q25": 1.0,
+        "q75": 1.183699812586002
+      },
+      "tan": {
+        "n": 16,
+        "median": 0.5348217823095262,
+        "q25": 0.39112324770620827,
+        "q75": 0.5348217823095264
+      },
+      "sust": {
+        "n": 15,
+        "median": 0.7313151046638694,
+        "q25": 0.534821782309526,
+        "q75": 1.0
+      },
+      "saddle": {
+        "n": 15,
+        "median": 1.0,
+        "q25": 1.0,
+        "q75": 1.183699812586002
+      },
+      "energy": {
+        "n": 16,
+        "median": 1.0,
+        "q25": 1.0,
+        "q75": 1.0
+      }
+    },
+    "drift_at_first_commitment": {
+      "n": 16,
+      "median": 0.033213044144593695,
+      "q25": 0.01247455800921256,
+      "q75": 0.03977560771030413
+    },
+    "fy_ratio_at_first_commitment": {
+      "n": 16,
+      "median": 0.8943298733805651,
+      "q25": 0.8460669557205571,
+      "q75": 0.9783982707068005
+    },
+    "reentry_fraction_among_committed": {
+      "n": 9,
+      "N": 16,
+      "p": 0.5625
+    }
+  },
+  "T0.5_b0": {
+    "n_motions": 16,
+    "n_motions_with_commitment": 16,
+    "n_motions_reaching_10pct": 15,
+    "counts": {
+      "n_states": 26296,
+      "n_truth": 697,
+      "n_tan": 1427,
+      "n_tan_fp": 827,
+      "n_tan_fn": 97,
+      "n_d10": 485,
+      "n_d10_fp": 0,
+      "n_d10_fn": 212,
+      "n_d05": 1322,
+      "n_d05_fp": 650,
+      "n_d05_fn": 25,
+      "n_saddle": 451,
+      "n_saddle_fp": 0,
+      "n_saddle_fn": 246,
+      "n_energy": 625,
+      "n_energy_fp": 29,
+      "n_energy_fn": 101,
+      "n_sust": 498,
+      "n_sust_fp": 76,
+      "n_sust_fn": 275
+    },
+    "state_error_rates": {
+      "tangent_fp_given_tan": 0.5795374912403644,
+      "tangent_fn_given_truth": 0.13916786226685796,
+      "d10_fp_given_d10": 0.0,
+      "d10_fn_given_truth": 0.30416068866571017,
+      "d05_fp_given_d05": 0.491679273827534,
+      "d05_fn_given_truth": 0.035868005738880916,
+      "saddle_fp_given_saddle": 0.0,
+      "saddle_fn_given_truth": 0.35294117647058826,
+      "energy_fp_given_energy": 0.0464,
+      "energy_fn_given_truth": 0.1449067431850789,
+      "sust_fp_given_sust": 0.15261044176706828,
+      "sust_fn_given_truth": 0.3945480631276901
+    },
+    "scale_ratio_vs_commitment": {
+      "d10": {
+        "n": 15,
+        "median": 1.0,
+        "q25": 1.0,
+        "q75": 1.0
+      },
+      "d05": {
+        "n": 16,
+        "median": 1.0,
+        "q25": 1.0,
+        "q75": 1.0
+      },
+      "tan": {
+        "n": 16,
+        "median": 0.3911232477062082,
+        "q25": 0.2668210622347848,
+        "q75": 0.534821782309526
+      },
+      "sust": {
+        "n": 15,
+        "median": 1.0,
+        "q25": 0.7313151046638694,
+        "q75": 1.0
+      },
+      "saddle": {
+        "n": 15,
+        "median": 1.0,
+        "q25": 1.0,
+        "q75": 1.0
+      },
+      "energy": {
+        "n": 16,
+        "median": 1.0,
+        "q25": 1.0,
+        "q75": 1.0
+      }
+    },
+    "drift_at_first_commitment": {
+      "n": 16,
+      "median": 0.06416268582483184,
+      "q25": 0.0533812259338872,
+      "q75": 0.08114737064911938
+    },
+    "fy_ratio_at_first_commitment": {
+      "n": 16,
+      "median": 1.0,
+      "q25": 1.0,
+      "q75": 1.0
+    },
+    "reentry_fraction_among_committed": {
+      "n": 7,
+      "N": 16,
+      "p": 0.4375
+    }
+  },
+  "T0.5_b004": {
+    "n_motions": 16,
+    "n_motions_with_commitment": 16,
+    "n_motions_reaching_10pct": 16,
+    "counts": {
+      "n_states": 24720,
+      "n_truth": 837,
+      "n_tan": 1454,
+      "n_tan_fp": 713,
+      "n_tan_fn": 96,
+      "n_d10": 405,
+      "n_d10_fp": 0,
+      "n_d10_fn": 432,
+      "n_d05": 939,
+      "n_d05_fp": 228,
+      "n_d05_fn": 126,
+      "n_saddle": 562,
+      "n_saddle_fp": 0,
+      "n_saddle_fn": 275,
+      "n_energy": 724,
+      "n_energy_fp": 0,
+      "n_energy_fn": 113,
+      "n_sust": 578,
+      "n_sust_fp": 57,
+      "n_sust_fn": 316
+    },
+    "state_error_rates": {
+      "tangent_fp_given_tan": 0.4903713892709766,
+      "tangent_fn_given_truth": 0.11469534050179211,
+      "d10_fp_given_d10": 0.0,
+      "d10_fn_given_truth": 0.5161290322580645,
+      "d05_fp_given_d05": 0.24281150159744408,
+      "d05_fn_given_truth": 0.15053763440860216,
+      "saddle_fp_given_saddle": 0.0,
+      "saddle_fn_given_truth": 0.32855436081242534,
+      "energy_fp_given_energy": 0.0,
+      "energy_fn_given_truth": 0.13500597371565112,
+      "sust_fp_given_sust": 0.0986159169550173,
+      "sust_fn_given_truth": 0.37753882915173237
+    },
+    "scale_ratio_vs_commitment": {
+      "d10": {
+        "n": 16,
+        "median": 1.0,
+        "q25": 1.0,
+        "q75": 1.0
+      },
+      "d05": {
+        "n": 16,
+        "median": 1.0,
+        "q25": 1.0,
+        "q75": 1.0
+      },
+      "tan": {
+        "n": 16,
+        "median": 0.534821782309526,
+        "q25": 0.39112324770620827,
+        "q75": 0.5348217823095262
+      },
+      "sust": {
+        "n": 16,
+        "median": 1.0,
+        "q25": 0.7313151046638693,
+        "q75": 1.0
+      },
+      "saddle": {
+        "n": 16,
+        "median": 1.0,
+        "q25": 1.0,
+        "q75": 1.0
+      },
+      "energy": {
+        "n": 16,
+        "median": 1.0,
+        "q25": 1.0,
+        "q75": 1.0
+      }
+    },
+    "drift_at_first_commitment": {
+      "n": 16,
+      "median": 0.05280725026272812,
+      "q25": 0.042043487286670456,
+      "q75": 0.0588127533629329
+    },
+    "fy_ratio_at_first_commitment": {
+      "n": 16,
+      "median": 0.7770568859516978,
+      "q25": 0.7309627161088583,
+      "q75": 0.805478796306251
+    },
+    "reentry_fraction_among_committed": {
+      "n": 5,
+      "N": 16,
+      "p": 0.3125
+    }
+  },
+  "T2.0_b0": {
+    "n_motions": 16,
+    "n_motions_with_commitment": 16,
+    "n_motions_reaching_10pct": 11,
+    "counts": {
+      "n_states": 20997,
+      "n_truth": 3244,
+      "n_tan": 4260,
+      "n_tan_fp": 1528,
+      "n_tan_fn": 512,
+      "n_d10": 1978,
+      "n_d10_fp": 6,
+      "n_d10_fn": 1272,
+      "n_d05": 3489,
+      "n_d05_fp": 896,
+      "n_d05_fn": 651,
+      "n_saddle": 1760,
+      "n_saddle_fp": 0,
+      "n_saddle_fn": 1484,
+      "n_energy": 2780,
+      "n_energy_fp": 89,
+      "n_energy_fn": 553,
+      "n_sust": 2965,
+      "n_sust_fp": 756,
+      "n_sust_fn": 1035
+    },
+    "state_error_rates": {
+      "tangent_fp_given_tan": 0.3586854460093897,
+      "tangent_fn_given_truth": 0.15782983970406905,
+      "d10_fp_given_d10": 0.003033367037411527,
+      "d10_fn_given_truth": 0.3921085080147966,
+      "d05_fp_given_d05": 0.2568071080538836,
+      "d05_fn_given_truth": 0.20067817509247843,
+      "saddle_fp_given_saddle": 0.0,
+      "saddle_fn_given_truth": 0.45745992601726265,
+      "energy_fp_given_energy": 0.03201438848920863,
+      "energy_fn_given_truth": 0.17046855733662145,
+      "sust_fp_given_sust": 0.25497470489038787,
+      "sust_fn_given_truth": 0.3190505548705302
+    },
+    "scale_ratio_vs_commitment": {
+      "d10": {
+        "n": 11,
+        "median": 1.0,
+        "q25": 1.0,
+        "q75": 1.0
+      },
+      "d05": {
+        "n": 13,
+        "median": 1.0,
+        "q25": 1.0,
+        "q75": 1.0
+      },
+      "tan": {
+        "n": 16,
+        "median": 0.6330684434866978,
+        "q25": 0.4988971486586966,
+        "q75": 0.7984863284979021
+      },
+      "sust": {
+        "n": 13,
+        "median": 0.5348217823095263,
+        "q25": 0.534821782309526,
+        "q75": 0.7313151046638695
+      },
+      "saddle": {
+        "n": 11,
+        "median": 1.0,
+        "q25": 1.0,
+        "q75": 1.0
+      },
+      "energy": {
+        "n": 16,
+        "median": 1.0,
+        "q25": 1.0,
+        "q75": 1.0
+      }
+    },
+    "drift_at_first_commitment": {
+      "n": 16,
+      "median": 0.029321283424509292,
+      "q25": 0.005703763345224214,
+      "q75": 0.06084317342088951
+    },
+    "fy_ratio_at_first_commitment": {
+      "n": 16,
+      "median": 1.0,
+      "q25": 1.0,
+      "q75": 1.0
+    },
+    "reentry_fraction_among_committed": {
+      "n": 11,
+      "N": 16,
+      "p": 0.6875
+    }
+  },
+  "T2.0_b004": {
+    "n_motions": 16,
+    "n_motions_with_commitment": 16,
+    "n_motions_reaching_10pct": 12,
+    "counts": {
+      "n_states": 19534,
+      "n_truth": 3623,
+      "n_tan": 4205,
+      "n_tan_fp": 1183,
+      "n_tan_fn": 601,
+      "n_d10": 1684,
+      "n_d10_fp": 1,
+      "n_d10_fn": 1940,
+      "n_d05": 2855,
+      "n_d05_fp": 282,
+      "n_d05_fn": 1050,
+      "n_saddle": 2031,
+      "n_saddle_fp": 0,
+      "n_saddle_fn": 1592,
+      "n_energy": 2969,
+      "n_energy_fp": 9,
+      "n_energy_fn": 663,
+      "n_sust": 2964,
+      "n_sust_fp": 572,
+      "n_sust_fn": 1231
+    },
+    "state_error_rates": {
+      "tangent_fp_given_tan": 0.2813317479191439,
+      "tangent_fn_given_truth": 0.16588462600055204,
+      "d10_fp_given_d10": 0.0005938242280285036,
+      "d10_fn_given_truth": 0.5354678443279051,
+      "d05_fp_given_d05": 0.09877408056042032,
+      "d05_fn_given_truth": 0.28981507038365995,
+      "saddle_fp_given_saddle": 0.0,
+      "saddle_fn_given_truth": 0.43941484957217775,
+      "energy_fp_given_energy": 0.0030313236780060626,
+      "energy_fn_given_truth": 0.18299751587082527,
+      "sust_fp_given_sust": 0.19298245614035087,
+      "sust_fn_given_truth": 0.339773668230748
+    },
+    "scale_ratio_vs_commitment": {
+      "d10": {
+        "n": 12,
+        "median": 1.0,
+        "q25": 1.0,
+        "q75": 1.091849906293001
+      },
+      "d05": {
+        "n": 13,
+        "median": 1.0,
+        "q25": 1.0,
+        "q75": 1.0
+      },
+      "tan": {
+        "n": 16,
+        "median": 0.7313151046638695,
+        "q25": 0.5348217823095263,
+        "q75": 1.0
+      },
+      "sust": {
+        "n": 13,
+        "median": 0.7313151046638695,
+        "q25": 0.5348217823095263,
+        "q75": 0.7313151046638695
+      },
+      "saddle": {
+        "n": 14,
+        "median": 1.0,
+        "q25": 1.0,
+        "q75": 2.963912708474843
+      },
+      "energy": {
+        "n": 16,
+        "median": 1.0,
+        "q25": 1.0,
+        "q75": 1.3673996251720042
+      }
+    },
+    "drift_at_first_commitment": {
+      "n": 16,
+      "median": 0.012712396221883752,
+      "q25": 0.003648555974227729,
+      "q75": 0.03820161303462023
+    },
+    "fy_ratio_at_first_commitment": {
+      "n": 16,
+      "median": 0.9381181363099531,
+      "q25": 0.8545118210378616,
+      "q75": 0.9990564988874115
+    },
+    "reentry_fraction_among_committed": {
+      "n": 13,
+      "N": 16,
+      "p": 0.8125
+    }
+  }
+}

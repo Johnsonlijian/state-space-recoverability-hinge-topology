@@ -1,0 +1,200 @@
+[
+  {
+    "dt": 0.005,
+    "id": "FF02",
+    "nstory": 4,
+    "baseline_drift": 0.02363431099290841,
+    "ok": true,
+    "period": 2.5867440668075052,
+    "drift_at_cut": 0.02359929923732557,
+    "committed": true,
+    "peak_free": 0.10113218261281823
+  },
+  {
+    "dt": 0.005,
+    "id": "FF26",
+    "nstory": 4,
+    "baseline_drift": 0.051663832454987645,
+    "ok": true,
+    "period": 2.5867440668075123,
+    "drift_at_cut": 0.05149110201057472,
+    "committed": true,
+    "peak_free": 0.10063830954572932
+  },
+  {
+    "dt": 0.005,
+    "id": "FF18",
+    "nstory": 4,
+    "baseline_drift": 0.06640070193211668,
+    "ok": true,
+    "period": 2.586744066807516,
+    "drift_at_cut": 0.03524117702779859,
+    "committed": false,
+    "peak_free": 0.049816558669422493
+  },
+  {
+    "dt": 0.005,
+    "id": "FF04",
+    "nstory": 8,
+    "baseline_drift": 0.012742847608755301,
+    "ok": true,
+    "period": 3.940686544609033,
+    "drift_at_cut": 0.012703953184644188,
+    "committed": true,
+    "peak_free": 0.1011058096861915
+  },
+  {
+    "dt": 0.005,
+    "id": "FF20",
+    "nstory": 8,
+    "baseline_drift": 0.046854169197517934,
+    "ok": true,
+    "period": 3.9406865446089787,
+    "drift_at_cut": 0.061420252858165214,
+    "committed": true,
+    "peak_free": 0.10151271215504878
+  },
+  {
+    "dt": 0.005,
+    "id": "FF28",
+    "nstory": 8,
+    "baseline_drift": 0.06554955000542749,
+    "ok": true,
+    "period": 3.9406865446090515,
+    "drift_at_cut": 0.06366949668118276,
+    "committed": true,
+    "peak_free": 0.10032211385411315
+  },
+  {
+    "dt": 0.01,
+    "id": "FF02",
+    "nstory": 4,
+    "baseline_drift": 0.02363431099290841,
+    "ok": true,
+    "period": 2.5867440668075137,
+    "drift_at_cut": 0.023634310992908414,
+    "committed": true,
+    "peak_free": 0.10273533747480625
+  },
+  {
+    "dt": 0.01,
+    "id": "FF26",
+    "nstory": 4,
+    "baseline_drift": 0.051663832454987645,
+    "ok": true,
+    "period": 2.5867440668075177,
+    "drift_at_cut": 0.05166383245498755,
+    "committed": true,
+    "peak_free": 0.10099201981624904
+  },
+  {
+    "dt": 0.01,
+    "id": "FF18",
+    "nstory": 4,
+    "baseline_drift": 0.06640070193211668,
+    "ok": true,
+    "period": 2.586744066807507,
+    "drift_at_cut": 0.06640070193211689,
+    "committed": true,
+    "peak_free": 0.10089708873227705
+  },
+  {
+    "dt": 0.01,
+    "id": "FF04",
+    "nstory": 8,
+    "baseline_drift": 0.012742847608755301,
+    "ok": true,
+    "period": 3.9406865446089645,
+    "drift_at_cut": 0.012742847608755294,
+    "committed": true,
+    "peak_free": 0.10024816073491476
+  },
+  {
+    "dt": 0.01,
+    "id": "FF20",
+    "nstory": 8,
+    "baseline_drift": 0.046854169197517934,
+    "ok": true,
+    "period": 3.940686544609029,
+    "drift_at_cut": 0.04685416919751795,
+    "committed": true,
+    "peak_free": 0.10181814099254605
+  },
+  {
+    "dt": 0.01,
+    "id": "FF28",
+    "nstory": 8,
+    "baseline_drift": 0.06554955000542749,
+    "ok": true,
+    "period": 3.9406865446090444,
+    "drift_at_cut": 0.06554955000542728,
+    "committed": true,
+    "peak_free": 0.10374430413059647
+  },
+  {
+    "dt": 0.02,
+    "id": "FF02",
+    "nstory": 4,
+    "baseline_drift": 0.02363431099290841,
+    "ok": true,
+    "period": 2.586744066807512,
+    "drift_at_cut": 0.02487208596748011,
+    "committed": true,
+    "peak_free": 0.10423628961300471
+  },
+  {
+    "dt": 0.02,
+    "id": "FF26",
+    "nstory": 4,
+    "baseline_drift": 0.051663832454987645,
+    "ok": true,
+    "period": 2.5867440668075123,
+    "drift_at_cut": 0.05266613185443568,
+    "committed": true,
+    "peak_free": 0.11142398582762206
+  },
+  {
+    "dt": 0.02,
+    "id": "FF18",
+    "nstory": 4,
+    "baseline_drift": 0.06640070193211668,
+    "ok": true,
+    "period": 2.586744066807512,
+    "drift_at_cut": 0.02330225532460387,
+    "committed": false,
+    "peak_free": 0.02552768239040031
+  },
+  {
+    "dt": 0.02,
+    "id": "FF04",
+    "nstory": 8,
+    "baseline_drift": 0.012742847608755301,
+    "ok": true,
+    "period": 3.940686544608993,
+    "drift_at_cut": 0.012640483194343044,
+    "committed": true,
+    "peak_free": 0.1031656372287416
+  },
+  {
+    "dt": 0.02,
+    "id": "FF20",
+    "nstory": 8,
+    "baseline_drift": 0.046854169197517934,
+    "ok": true,
+    "period": 3.9406865446090125,
+    "drift_at_cut": 0.026668959669813964,
+    "committed": true,
+    "peak_free": 0.10018850837914621
+  },
+  {
+    "dt": 0.02,
+    "id": "FF28",
+    "nstory": 8,
+    "baseline_drift": 0.06554955000542749,
+    "ok": true,
+    "period": 3.940686544609006,
+    "drift_at_cut": 0.06535377550849418,
+    "committed": true,
+    "peak_free": 0.10579063903989415
+  }
+]

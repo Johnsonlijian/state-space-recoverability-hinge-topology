@@ -1,0 +1,20 @@
+[
+  {
+    "id": "gabor_14",
+    "kind": "gabor",
+    "scale_g": 1.828287761659673,
+    "drift_at_commitment": 0.010136462971792312,
+    "reentry": 1,
+    "d10_scale": null,
+    "tan_scale": 0.9778081192655208
+  },
+  {
+    "id": "kt_09",
+    "kind": "kanai_tajimi",
+    "scale_g": 0.3824434872406299,
+    "drift_at_commitment": 0.07638653726986736,
+    "reentry": 0,
+    "d10_scale": 0.3824434872406299,
+    "tan_scale": 0.27968669889939646
+  }
+]

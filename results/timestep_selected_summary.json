@@ -1,0 +1,50 @@
+[
+  {
+    "dt": 0.005,
+    "nstory": 4,
+    "n": 3,
+    "committed": 2,
+    "median_drift_at_cut_percent": 3.5241177027798587,
+    "median_peak_free_percent": 10.063830954572932
+  },
+  {
+    "dt": 0.005,
+    "nstory": 8,
+    "n": 3,
+    "committed": 3,
+    "median_drift_at_cut_percent": 6.142025285816521,
+    "median_peak_free_percent": 10.11058096861915
+  },
+  {
+    "dt": 0.01,
+    "nstory": 4,
+    "n": 3,
+    "committed": 3,
+    "median_drift_at_cut_percent": 5.166383245498754,
+    "median_peak_free_percent": 10.099201981624905
+  },
+  {
+    "dt": 0.01,
+    "nstory": 8,
+    "n": 3,
+    "committed": 3,
+    "median_drift_at_cut_percent": 4.685416919751795,
+    "median_peak_free_percent": 10.181814099254606
+  },
+  {
+    "dt": 0.02,
+    "nstory": 4,
+    "n": 3,
+    "committed": 2,
+    "median_drift_at_cut_percent": 2.487208596748011,
+    "median_peak_free_percent": 10.423628961300471
+  },
+  {
+    "dt": 0.02,
+    "nstory": 8,
+    "n": 3,
+    "committed": 3,
+    "median_drift_at_cut_percent": 2.6668959669813965,
+    "median_peak_free_percent": 10.31656372287416
+  }
+]

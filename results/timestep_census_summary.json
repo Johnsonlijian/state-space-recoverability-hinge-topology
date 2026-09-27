@@ -1,0 +1,56 @@
+[
+  {
+    "dt": 0.005,
+    "nstory": 4,
+    "n": 21,
+    "valid": 21,
+    "committed": 20,
+    "median_drift_at_cut_percent": 5.00324497257336,
+    "median_peak_free_percent": 10.06604203195616
+  },
+  {
+    "dt": 0.005,
+    "nstory": 8,
+    "n": 21,
+    "valid": 20,
+    "committed": 20,
+    "median_drift_at_cut_percent": 4.696946409562002,
+    "median_peak_free_percent": 10.134543517164705
+  },
+  {
+    "dt": 0.01,
+    "nstory": 4,
+    "n": 21,
+    "valid": 21,
+    "committed": 21,
+    "median_drift_at_cut_percent": 5.166383245498755,
+    "median_peak_free_percent": 10.157832688239589
+  },
+  {
+    "dt": 0.01,
+    "nstory": 8,
+    "n": 21,
+    "valid": 21,
+    "committed": 21,
+    "median_drift_at_cut_percent": 4.685416919751692,
+    "median_peak_free_percent": 10.219635977611595
+  },
+  {
+    "dt": 0.02,
+    "nstory": 4,
+    "n": 21,
+    "valid": 21,
+    "committed": 17,
+    "median_drift_at_cut_percent": 4.917538030730288,
+    "median_peak_free_percent": 10.271850774673826
+  },
+  {
+    "dt": 0.02,
+    "nstory": 8,
+    "n": 21,
+    "valid": 20,
+    "committed": 16,
+    "median_drift_at_cut_percent": 4.487589404136933,
+    "median_peak_free_percent": 10.229714554065634
+  }
+]

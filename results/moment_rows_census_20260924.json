@@ -1,0 +1,296 @@
+[
+  {
+    "id": "FF00",
+    "nstory": 4,
+    "scale": 1.9,
+    "drift_at_commitment": 0.02946791842368165,
+    "source": "terminal-399508-census-2026-09-24"
+  },
+  {
+    "id": "FF02",
+    "nstory": 4,
+    "scale": 1.3,
+    "drift_at_commitment": 0.035711281956344404,
+    "source": "terminal-399508-census-2026-09-24"
+  },
+  {
+    "id": "FF04",
+    "nstory": 4,
+    "scale": 1.9,
+    "drift_at_commitment": 0.03114726296806845,
+    "source": "terminal-399508-census-2026-09-24"
+  },
+  {
+    "id": "FF06",
+    "nstory": 4,
+    "scale": 2.8,
+    "drift_at_commitment": 0.04067277151242782,
+    "source": "terminal-399508-census-2026-09-24"
+  },
+  {
+    "id": "FF08",
+    "nstory": 4,
+    "scale": 1.3,
+    "drift_at_commitment": 0.05439386930694277,
+    "source": "terminal-399508-census-2026-09-24"
+  },
+  {
+    "id": "FF10",
+    "nstory": 4,
+    "scale": 0.9,
+    "drift_at_commitment": 0.050940881722105154,
+    "source": "terminal-399508-census-2026-09-24"
+  },
+  {
+    "id": "FF12",
+    "nstory": 4,
+    "scale": 1.3,
+    "drift_at_commitment": 0.05082442650799325,
+    "source": "terminal-399508-census-2026-09-24"
+  },
+  {
+    "id": "FF14",
+    "nstory": 4,
+    "scale": 1.9,
+    "drift_at_commitment": 0.03250696061932333,
+    "source": "terminal-399508-census-2026-09-24"
+  },
+  {
+    "id": "FF16",
+    "nstory": 4,
+    "scale": 0.6,
+    "drift_at_commitment": 0.034778970751319194,
+    "source": "terminal-399508-census-2026-09-24"
+  },
+  {
+    "id": "FF18",
+    "nstory": 4,
+    "scale": 2.8,
+    "drift_at_commitment": 0.057827190387370504,
+    "source": "terminal-399508-census-2026-09-24"
+  },
+  {
+    "id": "FF20",
+    "nstory": 4,
+    "scale": 4.0,
+    "drift_at_commitment": 0.0205306998667383,
+    "source": "terminal-399508-census-2026-09-24"
+  },
+  {
+    "id": "FF22",
+    "nstory": 4,
+    "scale": 0.4,
+    "drift_at_commitment": 0.03930347206360796,
+    "source": "terminal-399508-census-2026-09-24"
+  },
+  {
+    "id": "FF24",
+    "nstory": 4,
+    "scale": 0.6,
+    "drift_at_commitment": 0.023135298460977827,
+    "source": "terminal-399508-census-2026-09-24"
+  },
+  {
+    "id": "FF26",
+    "nstory": 4,
+    "scale": 0.9,
+    "drift_at_commitment": 0.03036371941862432,
+    "source": "terminal-399508-census-2026-09-24"
+  },
+  {
+    "id": "FF28",
+    "nstory": 4,
+    "scale": 2.8,
+    "drift_at_commitment": 0.03637929699864124,
+    "source": "terminal-399508-census-2026-09-24"
+  },
+  {
+    "id": "FF30",
+    "nstory": 4,
+    "scale": 0.9,
+    "drift_at_commitment": 0.037959730429987584,
+    "source": "terminal-399508-census-2026-09-24"
+  },
+  {
+    "id": "FF32",
+    "nstory": 4,
+    "scale": 1.9,
+    "drift_at_commitment": 0.03505663390834216,
+    "source": "terminal-399508-census-2026-09-24"
+  },
+  {
+    "id": "FF36",
+    "nstory": 4,
+    "scale": 0.4,
+    "drift_at_commitment": 0.05432837286868297,
+    "source": "terminal-399508-census-2026-09-24"
+  },
+  {
+    "id": "FF38",
+    "nstory": 4,
+    "scale": 0.9,
+    "drift_at_commitment": 0.05043341311687561,
+    "source": "terminal-399508-census-2026-09-24"
+  },
+  {
+    "id": "FF40",
+    "nstory": 4,
+    "scale": 2.8,
+    "drift_at_commitment": 0.020711253546296056,
+    "source": "terminal-399508-census-2026-09-24"
+  },
+  {
+    "id": "FF42",
+    "nstory": 4,
+    "scale": 1.9,
+    "drift_at_commitment": 0.031122327027955136,
+    "source": "terminal-399508-census-2026-09-24"
+  },
+  {
+    "id": "FF00",
+    "nstory": 8,
+    "scale": 1.9,
+    "drift_at_commitment": 0.020145373338896745,
+    "source": "terminal-399508-census-2026-09-24"
+  },
+  {
+    "id": "FF02",
+    "nstory": 8,
+    "scale": 1.9,
+    "drift_at_commitment": 0.025648003029215084,
+    "source": "terminal-399508-census-2026-09-24"
+  },
+  {
+    "id": "FF04",
+    "nstory": 8,
+    "scale": 1.3,
+    "drift_at_commitment": 0.03605979158186041,
+    "source": "terminal-399508-census-2026-09-24"
+  },
+  {
+    "id": "FF06",
+    "nstory": 8,
+    "scale": 4.0,
+    "drift_at_commitment": 0.040445227708236456,
+    "source": "terminal-399508-census-2026-09-24"
+  },
+  {
+    "id": "FF08",
+    "nstory": 8,
+    "scale": 1.3,
+    "drift_at_commitment": 0.051224213993458924,
+    "source": "terminal-399508-census-2026-09-24"
+  },
+  {
+    "id": "FF10",
+    "nstory": 8,
+    "scale": 0.9,
+    "drift_at_commitment": 0.03189497751127303,
+    "source": "terminal-399508-census-2026-09-24"
+  },
+  {
+    "id": "FF12",
+    "nstory": 8,
+    "scale": 2.8,
+    "drift_at_commitment": 0.03342990642701609,
+    "source": "terminal-399508-census-2026-09-24"
+  },
+  {
+    "id": "FF14",
+    "nstory": 8,
+    "scale": 4.0,
+    "drift_at_commitment": 0.008504145030021821,
+    "source": "terminal-399508-census-2026-09-24"
+  },
+  {
+    "id": "FF16",
+    "nstory": 8,
+    "scale": 0.6,
+    "drift_at_commitment": 0.05248998219713931,
+    "source": "terminal-399508-census-2026-09-24"
+  },
+  {
+    "id": "FF18",
+    "nstory": 8,
+    "scale": 2.8,
+    "drift_at_commitment": 0.0384519570113957,
+    "source": "terminal-399508-census-2026-09-24"
+  },
+  {
+    "id": "FF20",
+    "nstory": 8,
+    "scale": 4.0,
+    "drift_at_commitment": 0.025562000153532414,
+    "source": "terminal-399508-census-2026-09-24"
+  },
+  {
+    "id": "FF22",
+    "nstory": 8,
+    "scale": 0.4,
+    "drift_at_commitment": 0.05033670945517299,
+    "source": "terminal-399508-census-2026-09-24"
+  },
+  {
+    "id": "FF24",
+    "nstory": 8,
+    "scale": 0.9,
+    "drift_at_commitment": 0.05247456764820876,
+    "source": "terminal-399508-census-2026-09-24"
+  },
+  {
+    "id": "FF26",
+    "nstory": 8,
+    "scale": 1.3,
+    "drift_at_commitment": 0.0526106147836639,
+    "source": "terminal-399508-census-2026-09-24"
+  },
+  {
+    "id": "FF28",
+    "nstory": 8,
+    "scale": null,
+    "drift_at_commitment": null,
+    "source": "terminal-399508-census-2026-09-24"
+  },
+  {
+    "id": "FF30",
+    "nstory": 8,
+    "scale": 0.9,
+    "drift_at_commitment": 0.05441264316533153,
+    "source": "terminal-399508-census-2026-09-24"
+  },
+  {
+    "id": "FF32",
+    "nstory": 8,
+    "scale": 4.0,
+    "drift_at_commitment": 0.030021124135502255,
+    "source": "terminal-399508-census-2026-09-24"
+  },
+  {
+    "id": "FF36",
+    "nstory": 8,
+    "scale": 0.6,
+    "drift_at_commitment": 0.029638291856519543,
+    "source": "terminal-399508-census-2026-09-24"
+  },
+  {
+    "id": "FF38",
+    "nstory": 8,
+    "scale": 1.3,
+    "drift_at_commitment": 0.05356394656816711,
+    "source": "terminal-399508-census-2026-09-24"
+  },
+  {
+    "id": "FF40",
+    "nstory": 8,
+    "scale": 4.0,
+    "drift_at_commitment": 0.019026827927677386,
+    "source": "terminal-399508-census-2026-09-24"
+  },
+  {
+    "id": "FF42",
+    "nstory": 8,
+    "scale": 1.9,
+    "drift_at_commitment": 0.07156329209083277,
+    "source": "terminal-399508-census-2026-09-24"
+  }
+]

@@ -24,6 +24,11 @@ python src/static_continuation.py
 python src/paired_comparison.py
 python src/summarize_multibay.py
 python src/make_multibay_figure.py
+python src/run_study.py
+python src/sdof_recorded.py
+python src/opensees_moment_frame.py
+python src/make_record_interaction_figure.py
+python src/make_graphical_abstract.py
 ```
 
 The first two commands regenerate the dynamic and static derived tables. The
@@ -31,6 +36,7 @@ last three commands rebuild paired summaries and the editable figure in
 `figures/`. Existing JSON files can be used for a no-download verification of
 the manuscript numbers.
 
-The model is a controlled topology experiment. It is not a code-designed
-building and the stored results do not establish experimental validation or a
-population-level fragility model.
+The baseline and multi-bay models are controlled idealizations. They are not a
+code-designed building and the stored results do not establish experimental
+validation or a population-level fragility model. The public archive DOI must
+be added to the manuscript data citation after a permitted repository deposit.

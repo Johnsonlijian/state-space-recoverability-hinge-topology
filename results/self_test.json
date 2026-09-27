@@ -1,0 +1,13 @@
+{
+  "period_s": 1.0550000000000002,
+  "period_target_s": 1.0540925533894598,
+  "period_rel_err": 0.0008608794432921499,
+  "safe_below_saddle": 0,
+  "escape_above_saddle": 1,
+  "v_crit_m_s": 0.19471793000960372,
+  "recover_at_0.85_vcrit": 0,
+  "escape_at_1.15_vcrit": 1,
+  "uc_m": 0.35000000000000003,
+  "drift_c": 0.1,
+  "pass": true
+}
