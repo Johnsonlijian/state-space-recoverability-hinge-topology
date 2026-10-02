@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import os
 from pathlib import Path
 import re
 
@@ -11,7 +12,9 @@ from matplotlib.patches import FancyArrowPatch, FancyBboxPatch, Rectangle, Circl
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "figures"
-UPLOAD = ROOT.parent / "submission" / "UPLOAD_FILES"
+# Keep a clean checkout self-contained.  An explicit export directory may be
+# supplied by a release workflow when the upload-facing package is rebuilt.
+UPLOAD = Path(os.environ["GRAPHICAL_ABSTRACT_UPLOAD_DIR"]).resolve() if os.environ.get("GRAPHICAL_ABSTRACT_UPLOAD_DIR") else None
 
 NAVY = "#17324d"
 BLUE = "#2166ac"
@@ -193,8 +196,11 @@ def main():
              "Mechanism schematic; quantitative evidence is provided by the phase-plane and frame census figures.",
              ha="center", va="bottom", fontsize=8.5, color=GRAY)
     OUT.mkdir(parents=True, exist_ok=True)
-    UPLOAD.mkdir(parents=True, exist_ok=True)
-    for target in [OUT, UPLOAD]:
+    targets = [OUT]
+    if UPLOAD is not None and UPLOAD != OUT:
+        UPLOAD.mkdir(parents=True, exist_ok=True)
+        targets.append(UPLOAD)
+    for target in targets:
         fig.savefig(target / "graphical_abstract.pdf", bbox_inches="tight")
         fig.savefig(target / "graphical_abstract.svg", bbox_inches="tight")
         fig.savefig(target / "graphical_abstract.png", dpi=240, bbox_inches="tight")

@@ -25,7 +25,7 @@ from pathlib import Path
 import openseespy.opensees as ops
 
 
-ROUND = Path(__file__).resolve().parents[1]  # .../reproducibility/
+ROUND = Path(__file__).resolve().parents[1]  # .../public_repo/
 GM_DIR = ROUND / "data" / "fema_p695"
 
 G = 9.80665
