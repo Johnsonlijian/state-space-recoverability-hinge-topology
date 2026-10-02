@@ -6,4 +6,4 @@ This is a prepared local reproducibility release dated 2026-10-02. An intended G
 
 A persistent archive DOI must be assigned after a permitted deposit and cited in the manuscript before the Earthquake Spectra package is submitted.
 
-Local snapshot commit: 368352; no remote repository was created or pushed.
+Local snapshot commit: 156c128; no remote repository was created or pushed.
