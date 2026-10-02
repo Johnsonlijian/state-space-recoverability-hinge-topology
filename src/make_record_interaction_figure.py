@@ -14,14 +14,14 @@ from scipy.stats import spearmanr
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent
-R45_RESULTS = ROOT / "results"
+RESULTS = ROOT / "results"
 OUT = ROOT / "figures"
 
 
 def main() -> None:
     reference = {
         row["id"]: float(row["drift_fine_recomputed"])
-        for row in json.loads((R45_RESULTS / "column_hinge_rows_recomputed.json").read_text(encoding="utf-8"))
+        for row in json.loads((RESULTS / "column_hinge_rows_recomputed.json").read_text(encoding="utf-8"))
         if row["nstory"] == 4
     }
     rows = json.loads((ROOT / "results" / "multibay_dynamic_full.json").read_text(encoding="utf-8"))

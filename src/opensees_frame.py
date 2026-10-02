@@ -2,9 +2,8 @@
 OpenSeesPy 3.7 shear frames with IMKBilin story springs.
 
 The installed openseespywin wheel is a Python 3.12 binary whose wrapper
-rejects every interpreter except 3.11. This script is run with the local
-Python 3.12 environment at E:\\Users\\Monster\\.cursor\\venvs\\opensees312,
-after that wrapper check is opened to 3.12.
+requires a compatible interpreter. Run this script with an environment that
+matches the installed OpenSeesPy wheel.
 
 Story springs match the R43 IMK shear frame: yield drift 0.8%, stability
 coefficient 0.08, pre-cap plastic drift 1.5%, post-cap 5%, residual 0.15.

@@ -640,7 +640,7 @@ def main():
         ("main_b0", 1.0, 0.10, 0.0, motions, meta),
         ("main_b004", 1.0, 0.10, 0.04, motions, meta),
     ]
-    # Smaller sensitivity suite, frozen seed offset by rebuilding with fewer motions
+    # Smaller sensitivity suite uses an offset seed and fewer motions.
     # from the same generator call would change the suite. Slice the first 8 of each kind.
     sens_motions = [m for m, info in zip(motions, meta) if info["id"].endswith(("00", "01", "02", "03", "04", "05", "06", "07"))]
     sens_meta = [info for info in meta if info["id"].endswith(("00", "01", "02", "03", "04", "05", "06", "07"))]

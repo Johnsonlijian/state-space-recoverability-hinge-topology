@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from pathlib import Path
+import re
 
 import matplotlib as mpl
 
@@ -21,6 +22,13 @@ GRAY = "#6f7b85"
 LIGHT = "#f5f7f9"
 MID = "#d9e1e8"
 DARK = "#1f2933"
+
+
+def strip_svg_metadata(path: Path) -> None:
+    """Remove generator/date metadata from the upload-facing SVG master."""
+    text = path.read_text(encoding="utf-8")
+    text = re.sub(r"\s*<metadata>.*?</metadata>\s*", "\n", text, count=1, flags=re.DOTALL)
+    path.write_text(text, encoding="utf-8")
 
 
 def box(ax, xy, width, height, title, body, edge, face=LIGHT, title_color=NAVY):
@@ -190,6 +198,7 @@ def main():
         fig.savefig(target / "graphical_abstract.pdf", bbox_inches="tight")
         fig.savefig(target / "graphical_abstract.svg", bbox_inches="tight")
         fig.savefig(target / "graphical_abstract.png", dpi=240, bbox_inches="tight")
+        strip_svg_metadata(target / "graphical_abstract.svg")
     plt.close(fig)
     print("wrote graphical_abstract.pdf/.svg/.png")
 

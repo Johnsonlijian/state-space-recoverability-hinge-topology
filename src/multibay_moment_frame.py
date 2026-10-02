@@ -1,6 +1,6 @@
 """Controlled multi-bay IMK moment-frame model.
 
-This is an analysis companion to the frozen one-bay baseline.  It keeps
+This is an analysis companion to the one-bay reference model.  It keeps
 the same story height, mass, IMKBilin backbone and 21 local FEMA P695 records,
 but adds a rigid-diaphragm floor constraint and an arbitrary number of bays.
 The code is deliberately explicit about what is exploratory:
@@ -216,7 +216,7 @@ def build(
         sup = support_id(line)
         ops.node(sup, line * BAY, 0.0)
         ops.fix(sup, 1, 1, 1)
-    # Leaning column carries the total gravity load, as in archived baseline/one-bay baseline.
+    # Leaning column carries the total gravity load, as in the one-bay reference.
     for floor in range(nstory + 1):
         ops.node(lean_id(floor), n_bays * BAY + 2.0, floor * HST)
     ops.fix(lean_id(0), 1, 1, 0)
@@ -430,7 +430,7 @@ def pushover(
         # The transformation constraint does not expose the zeroLength
         # support reactions consistently through nodeReaction on Windows.
         # First-story elastic-column end forces are the same global shear
-        # measure used by the frozen one-bay model.
+        # measure used by the one-bay reference model.
         shear = -sum(float(ops.eleForce(col_ele_id(0, line))[0]) for line in range(n_columns))
         drifts = max_story_drifts(nstory)
         h = hinge_rotations(built["column_meta"] + built["beam_meta"])
@@ -591,7 +591,7 @@ def first_commitment(
         done += n
         if ok != 0:
             # Keep the successful history before a later convergence failure;
-            # this mirrors the frozen archived baseline census, which only needs the first
+        # this mirrors the reference census, which only needs the first
             # zero-input commitment passage and does not label a later tail
             # failure as the commitment itself.
             break

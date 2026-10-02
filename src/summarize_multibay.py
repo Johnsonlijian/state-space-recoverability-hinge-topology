@@ -31,7 +31,7 @@ def quantile_summary(values: list[float], seed: int = 4601) -> dict:
 def main() -> None:
     rows = json.loads((RES / "multibay_dynamic_full.json").read_text(encoding="utf-8"))
     static_rows = json.loads((RES / "multibay_static.json").read_text(encoding="utf-8"))
-    # Frozen one-bay reference, stored with the derived results.
+    # One-bay reference stored with the derived results.
     baseline = json.loads((RES / "column_hinge_rows_recomputed.json").read_text(encoding="utf-8"))
     reference = {
         n: [x["drift_fine_recomputed"] for x in baseline if x["nstory"] == n and x.get("drift_fine_recomputed") is not None]

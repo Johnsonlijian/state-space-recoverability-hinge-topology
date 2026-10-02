@@ -179,7 +179,7 @@ def run_case(
 
 def main() -> None:
     cases = [
-        # One-bay replay is a frozen-reference check for the continuation.
+        # One-bay replay is a reference check for the continuation.
         dict(nstory=4, n_bays=1, rigid=False, capacity_mode="member", column_ratio=1.0, story_factor=1.0, pattern="triangular"),
         dict(nstory=4, n_bays=2, rigid=False, capacity_mode="member", column_ratio=1.0, story_factor=1.0, pattern="triangular"),
         dict(nstory=4, n_bays=3, rigid=False, capacity_mode="member", column_ratio=1.0, story_factor=1.0, pattern="triangular"),

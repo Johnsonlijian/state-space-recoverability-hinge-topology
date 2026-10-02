@@ -1,10 +1,10 @@
 {
   "source": {
-    "column_rows": "archived baseline/results/column_hinge_rows.json",
-    "beam_base_rows": "archived baseline/results/moment_bracket.json",
+    "column_rows": "results/column_hinge_rows.json",
+    "beam_base_rows": "results/moment_bracket.json",
     "column_pushover": [
-      "archived baseline/results/column_hinge_pushover_4.json",
-      "archived baseline/results/column_hinge_pushover_8.json"
+      "results/column_hinge_pushover_4.json",
+      "results/column_hinge_pushover_8.json"
     ],
     "seed": 20260925,
     "bootstrap_replicates": 20000

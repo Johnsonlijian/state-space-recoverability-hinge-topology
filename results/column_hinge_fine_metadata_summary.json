@@ -1,5 +1,5 @@
 {
-  "source": "R:\\IMUT_WORKPOOL\\01_PROJECTS\\NAS_DRIVE\\IMUT\\1-Research_Output\\1-Papers\\1_In_Preparation\\ai_civil_slate_codex_goal_gate\\rounds\\archived baseline_N0_GRAVITY_SEPARATRIX_2026-09-24\\results\\column_hinge_rows.json",
+  "source": "results/column_hinge_rows.json",
   "opensees_version": "3.8.0",
   "fine_levels": [
     0.046,

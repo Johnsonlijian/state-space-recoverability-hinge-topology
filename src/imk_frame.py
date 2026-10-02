@@ -10,7 +10,7 @@ energy at each reversal:
 P-delta is a linear geometric story force -W*gamma, outside the spring.
 OpenSees was not used: the Windows build failed to load.
 
-Frozen before looking at aggregate commitment drifts.
+Parameters are set before aggregate commitment drifts are evaluated.
 """
 
 from __future__ import annotations

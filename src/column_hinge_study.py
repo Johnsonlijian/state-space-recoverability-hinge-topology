@@ -1,6 +1,6 @@
 """Moment frames with IMK hinges at both ends of every column.
 
-Beam hinges stay as in the frozen one-bay model. Each new column hinge uses
+Beam hinges use the one-bay reference model. Each new column hinge uses
 the same yield moment as the beam hinge of that story. Output is
 results/column_hinge_rows.json and does not touch the reference census files.
 
@@ -18,7 +18,7 @@ from refine_moment_bracket import bracket_one
 
 mf.COLUMN_HINGES = True
 # The pushover peak of this hinge map is near 1.4--1.6% drift, so the ladder
-# has to start below the frozen 1.6% rung.
+# starts below the 1.6% reference rung.
 rb.LEVELS = (0.008, 0.010, 0.012, 0.014, 0.016, 0.020, 0.024, 0.028, 0.034, 0.044, 0.060, 0.080)
 
 

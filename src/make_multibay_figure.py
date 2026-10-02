@@ -158,11 +158,13 @@ def main() -> None:
         ax.text(-0.12, 1.05, letter, transform=ax.transAxes, fontsize=11, fontweight="bold", va="top", ha="left")
     fig.suptitle("Multi-bay topology changes the recoverability bracket", fontsize=12, fontweight="bold", x=0.5, y=1.02)
     FIG.mkdir(parents=True, exist_ok=True)
-    fig.savefig(FIG / "fig9_multibay.svg", bbox_inches="tight")
-    fig.savefig(FIG / "fig9_multibay.pdf", bbox_inches="tight")
-    fig.savefig(FIG / "fig9_multibay.png", dpi=320, bbox_inches="tight")
+    # The manuscript calls this synthesis Figure 8. Keep the generated
+    # artifact name aligned with the upload package and the public release.
+    fig.savefig(FIG / "fig8_multibay.svg", bbox_inches="tight")
+    fig.savefig(FIG / "fig8_multibay.pdf", bbox_inches="tight")
+    fig.savefig(FIG / "fig8_multibay.png", dpi=320, bbox_inches="tight")
     plt.close(fig)
-    print("wrote", FIG / "fig9_multibay.svg")
+    print("wrote", FIG / "fig8_multibay.svg")
 
 
 if __name__ == "__main__":

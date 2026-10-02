@@ -1,4 +1,4 @@
-"""Record-paired comparisons against the frozen one-bay column-hinge census."""
+"""Record-paired comparisons against the one-bay column-hinge reference."""
 
 from __future__ import annotations
 
@@ -49,7 +49,7 @@ def main() -> None:
     lines = [
         "# Multi-bay paired record comparisons",
         "",
-        "Positive deltas mean the multi-bay census model commits at a larger drift than the frozen one-bay reference for the same record. Bootstrap intervals are intervals for the paired median difference, not a probabilistic fragility estimate.",
+        "Positive deltas mean the multi-bay census model commits at a larger drift than the one-bay reference for the same record. Bootstrap intervals are intervals for the paired median difference, not a probabilistic fragility estimate.",
         "",
         "| comparison | median paired delta | bootstrap 95% interval | positive / negative |",
         "|---|---:|---:|---:|",
