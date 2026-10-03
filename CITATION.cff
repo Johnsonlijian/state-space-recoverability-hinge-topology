@@ -7,6 +7,11 @@ authors:
     given-names: Lijian
     affiliation: Inner Mongolia University of Technology
     orcid: "https://orcid.org/0000-0003-1629-4368"
-version: "2026.10.02"
-date-released: 2026-10-02
+version: "1.0.0"
+date-released: 2026-10-03
 license: MIT
+repository-code: "https://github.com/Johnsonlijian/state-space-recoverability-hinge-topology"
+url: "https://doi.org/10.5281/zenodo.23117273"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23117273"

@@ -1,4 +1,4 @@
 dataset,role,access,redistribution_note
 FEMA P695 far-field components,21 recorded component identifiers used for the dynamic census,source identifiers recorded in data/fema_p695/README.md,Original acceleration files are not redistributed
 Derived multi-bay census tables,Manuscript statistics and figure inputs,included in results/,Derived outputs only
-Local code and derived release,Reproduction of the oscillator, one-bay, and multi-bay calculations,included in this repository,No public DOI assigned; deposit and DOI are required before external citation
+Public code and derived release,Reproduction of the oscillator, one-bay, and multi-bay calculations,https://doi.org/10.5281/zenodo.23117273,Versioned public archive; original third-party acceleration files are not redistributed

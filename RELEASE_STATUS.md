@@ -1,9 +1,18 @@
 # Release status
 
-LOCAL_ONLY / DOI_REQUIRED
+PUBLIC_RELEASE / DOI_ASSIGNED
 
-This is a prepared local reproducibility release dated 2026-10-03. The figure sources and generated assets were refreshed in the local snapshot. An intended GitHub remote is configured locally at `https://github.com/Johnsonlijian/state-space-recoverability-hinge-topology.git`; no repository has been created or pushed from this workspace. The third-party FEMA P695 acceleration files are not redistributed.
+Version 1.0.0 was prepared on 2026-10-03. The figure sources and generated
+assets are included in the public snapshot. The GitHub repository is
+`https://github.com/Johnsonlijian/state-space-recoverability-hinge-topology`.
+The versioned archive is published at
+`https://doi.org/10.5281/zenodo.23117273`. The third-party FEMA P695
+acceleration files are not redistributed.
 
-A persistent archive DOI must be assigned after a permitted deposit and cited in the manuscript before the Earthquake Spectra package is submitted.
+The public repository and archive contain only source code, derived tables,
+publication figures, runbook material, and source-data pointers. Active
+manuscript sources, cover letters, review material, internal workflow records,
+and private author files remain outside the public release.
 
-The reproducibility snapshot is committed locally and the working tree is clean. No remote repository was created or pushed.
+The reproducibility snapshot is committed and pushed; the working tree is
+clean.

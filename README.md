@@ -15,6 +15,5 @@ FEMA acceleration files are not redistributed.
 
 The repository is a clean reproducibility surface. Active manuscript sources,
 cover letters, review material, internal workflow records, and private author
-files remain outside this directory. A persistent public archive DOI has not
-yet been assigned to this local release; the manuscript remains local-only
-until the release is deposited in a permitted repository.
+files remain outside this directory. Version 1.0.0 is archived at
+<https://doi.org/10.5281/zenodo.23117273>.
