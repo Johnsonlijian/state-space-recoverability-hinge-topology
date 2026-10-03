@@ -116,7 +116,7 @@ def fig_separatrix():
     )
     ax.plot(uu / rs.H * 100, vv, color=INK, lw=1.1)
     ax.annotate(
-        "Inward velocity\nstill committed",
+        "Inward velocity can\nstill cross the barrier",
         xy=(9.2, -0.45),
         xytext=(2.6, -0.52),
         fontsize=6,
@@ -216,9 +216,8 @@ def fig_traces(rows):
         ax.set_ylim(*ylims[i])
         ax.set_ylabel("Drift (%)")
         drift0 = rec["drift_at_first_commitment"] * 100
-        note = "static saddle at 10% lies above the panel" if label == "Pulse" else "dashed line is the 10% static saddle"
         ax.set_title(
-            f"{label}, PGA {rec['scale']['truth']:.2f} g at first commitment, drift {drift0:.1f}%. {note}",
+            f"{label} | first commitment: {drift0:.1f}% drift (PGA {rec['scale']['truth']:.2f} g)",
             loc="left",
             fontsize=7,
         )
@@ -247,7 +246,7 @@ def fig_traces(rows):
 
 def fig_drift(rows):
     fig, axes = plt.subplots(1, 2, figsize=(7.2, 2.8), sharey=True)
-    specs = [("main_b0", "No strength loss"), ("main_b004", "Strength loss, beta = 0.04")]
+    specs = [("main_b0", "Constant strength"), ("main_b004", r"Strength loss ($\beta=0.04$)")]
     for ax, (tag, title) in zip(axes, specs):
         for kind, color, name, dx in (
             ("gabor", RED, "Pulse", -0.12),
@@ -259,14 +258,14 @@ def fig_drift(rows):
             x = x + np.linspace(-0.08, 0.08, y.size)
             ax.scatter(x, y, s=16, c=color, alpha=0.85, zorder=3)
             ax.hlines(np.median(y), dx - 0.18, dx + 0.18, color=color, lw=1.3)
-        ax.axhline(10, color=GOLD, lw=0.8, ls="--", label="Static saddle, 10%")
-        ax.axhline(1, color=TEAL, lw=0.7, ls=":", label="Yield, 1%")
+        ax.axhline(10, color=GOLD, lw=0.8, ls="--", label="Static saddle (10%)")
+        ax.axhline(1, color=TEAL, lw=0.7, ls=":", label="Yield drift (1%)")
         ax.set_xlim(-0.55, 0.55)
         ax.set_xticks([-0.12, 0.12])
         ax.set_xticklabels(["Pulse", "Filtered noise"])
         ax.set_title(title, loc="left", fontsize=7)
         ax.set_ylabel("Drift at first commitment (%)" if tag == "main_b0" else "")
-    axes[1].legend(loc="upper right")
+    axes[1].legend(loc="upper right", frameon=True, facecolor="white", edgecolor="none", framealpha=0.9)
     save(fig, "fig3_commitment_drift")
 
 
@@ -292,14 +291,14 @@ def fig_proxies(summary):
     ]
     x = np.arange(len(labels))
     fig, ax = plt.subplots(figsize=(7.2, 2.9))
-    ax.bar(x - 0.16, np.array(fp) * 100, width=0.32, color=GOLD, label="False alarm among states the proxy calls committed")
-    ax.bar(x + 0.16, np.array(fn) * 100, width=0.32, color=BLUE, label="Miss among states that actually run away")
+    ax.bar(x - 0.16, np.array(fp) * 100, width=0.32, color=GOLD, label="Proxy false alarm")
+    ax.bar(x + 0.16, np.array(fn) * 100, width=0.32, color=BLUE, label="Proxy miss")
     ax.set_xticks(x)
     ax.set_xticklabels(labels)
     ax.set_ylabel("Conditional error (%)")
     ax.set_ylim(0, 100)
     ax.legend(loc="upper right")
-    ax.set_title("Nondeteriorating ensemble, sampled every 0.10 s", loc="left", fontsize=7)
+    ax.set_title("Conditional error rates of candidate markers", loc="left", fontsize=7)
     save(fig, "fig4_proxy_errors")
 
 

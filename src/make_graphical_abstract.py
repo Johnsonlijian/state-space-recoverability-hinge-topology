@@ -137,7 +137,7 @@ def main():
             fontsize=10.4, color=GRAY, ha="left", va="top")
 
     # Object / state.
-    box(ax, (0.35, 2.30), 2.55, 2.25, "1  Current nonlinear state",
+    box(ax, (0.35, 2.30), 2.55, 2.25, "1  State at release",
         "frame + hinge map\nstate: $u, v, S, F_y$", NAVY)
     draw_frame(ax, 0.63, 2.48, 1.10, 0.95, "ends", AMBER)
     ax.text(1.93, 2.48, "P-Delta load path", fontsize=7.8, color=GRAY,
@@ -146,8 +146,8 @@ def main():
             color=DARK, ha="left", va="center")
 
     # Driver / continuation.
-    box(ax, (3.35, 2.30), 2.25, 2.25, "2  Remove future input",
-        "ground acceleration -> 0\ncontinue the same model\nfor a fixed horizon", BLUE)
+    box(ax, (3.35, 2.30), 2.25, 2.25, "2  Zero-input test",
+        "ground acceleration = 0\nsame state and model\nfixed continuation horizon", BLUE)
     ax.plot([3.72, 4.09, 4.42, 4.70, 5.03], [3.28, 3.62, 3.03, 3.47, 3.21],
             color=BLUE, lw=1.4, zorder=3)
     ax.text(3.72, 2.72, "zero-input continuation", fontsize=8.5,
@@ -192,9 +192,6 @@ def main():
     ax.text(11.02, 0.74, "barrier shifts", fontsize=9.3,
             color=RED, ha="center", va="center", fontweight="bold")
 
-    fig.text(0.5, 0.015,
-             "Mechanism schematic; quantitative evidence is provided by the phase-plane and frame census figures.",
-             ha="center", va="bottom", fontsize=8.5, color=GRAY)
     OUT.mkdir(parents=True, exist_ok=True)
     targets = [OUT]
     if UPLOAD is not None and UPLOAD != OUT:

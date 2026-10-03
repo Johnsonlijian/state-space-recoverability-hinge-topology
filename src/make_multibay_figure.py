@@ -104,7 +104,7 @@ def main() -> None:
     ax.set_ylabel("Story drift (%)")
     ax.set_title("Static reference points")
     ax.set_ylim(0, 12)
-    ax.text(0.02, 0.04, "○ peak   ◆ net-zero\nstatic paths stop on nonconvergence", transform=ax.transAxes, fontsize=7, color="#4f5963")
+    ax.text(0.02, 0.04, "○ peak   ◆ net-zero", transform=ax.transAxes, fontsize=7, color="#4f5963")
 
     ax = axs[0, 1]
     style_axes(ax)
@@ -121,7 +121,7 @@ def main() -> None:
     ax.set_ylabel("Commitment drift (%)")
     ax.set_title("21-record zero-input commitment")
     ax.set_ylim(0, 11)
-    ax.text(0.02, 0.04, "Points are records; boxes are IQR", transform=ax.transAxes, fontsize=7, color="#4f5963")
+    ax.text(0.02, 0.04, "Each point: one record; box: IQR", transform=ax.transAxes, fontsize=7, color="#4f5963")
 
     ax = axs[1, 0]
     style_axes(ax)
@@ -138,7 +138,7 @@ def main() -> None:
     ax.set_ylabel("Paired Δ commitment drift (percentage points)")
     ax.set_title("Same-record change from 1-bay")
     ax.set_ylim(-2.5, 3.0)
-    ax.text(0.02, 0.04, "Whiskers: bootstrap 95% CI for paired median", transform=ax.transAxes, fontsize=7, color="#4f5963")
+    ax.text(0.02, 0.04, "Whiskers: 95% CI for paired median", transform=ax.transAxes, fontsize=7, color="#4f5963")
 
     ax = axs[1, 1]
     style_axes(ax)
@@ -152,7 +152,7 @@ def main() -> None:
     ax.set_ylabel("Max column / beam rotation")
     ax.set_title("Local hinge rotation at commitment")
     ax.set_ylim(0, 2.7)
-    ax.text(0.02, 0.04, "Ratio > 1: column ends rotate farther", transform=ax.transAxes, fontsize=7, color="#4f5963")
+    ax.text(0.02, 0.04, "Ratio > 1: column rotation dominates", transform=ax.transAxes, fontsize=7, color="#4f5963")
 
     for ax, letter in zip(axs.flat, "abcd"):
         ax.text(-0.12, 1.05, letter, transform=ax.transAxes, fontsize=11, fontweight="bold", va="top", ha="left")

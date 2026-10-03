@@ -54,7 +54,7 @@ def main() -> None:
     axes[1, 0].set_ylabel("Paired change (percentage points)", fontsize=9.2)
     axes[1, 0].set_xlabel("One-bay commitment drift (%)", fontsize=9.2)
     axes[1, 1].set_xlabel("One-bay commitment drift (%)", fontsize=9.2)
-    fig.suptitle("Record interaction in the multi-bay zero-input release screen", fontsize=12.6, fontweight="bold", y=1.015)
+    fig.suptitle("Same-record commitment shifts across topology cells", fontsize=12.6, fontweight="bold", y=1.015)
     fig.text(0.5, -0.035, "Each point is one of the same 21 records; dashed vertical line is the one-bay median.", ha="center", fontsize=8.8, color="#444444")
     OUT.mkdir(parents=True, exist_ok=True)
     fig.savefig(OUT / "fig10_record_interaction.pdf", bbox_inches="tight")
